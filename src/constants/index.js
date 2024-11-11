@@ -35,40 +35,53 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+// import Login from "../Login";
+// import Login from "./Login";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#hero",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Upskill",
+    url: "#features",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Careers",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Services",
+    url: "#pricing",
   },
+  // {
+  //   id: "3",
+  //   title: "Pricing",
+  //   url: "#roadmap",
+  // },
   {
     id: "4",
+    title: "Contact",
+    url: "#contact",
+  },
+  {
+    id: "5",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "6",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   // action: Login
+  //   // onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -128,21 +141,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "You’ll learn essential design principles, like color, typography, and composition, while building a portfolio through hands-on projects. Ideal for both beginners and experienced designers, these courses help you develop skills to succeed in the design industry.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Learn to use popular design software",
+    // text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Experienced designers to improve skills.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Build a portfolio with hands-on projects.",
   },
 ];
 
@@ -208,35 +221,38 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Industry Training",
+    description: "Our industry training programs are designed to bridge the gap between academic knowledge and practical skills. We offer specialized courses for professionals in Full Stack Development, Cloud Computing, and Data Science. These programs are tailored to boost productivity, ensuring your team stays ahead in today’s competitive landscape.",
+    // price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Develop Practical Training Programmes",
+      "Facilitate Real-World Project Experience",
+      "Ensure Skill Application Beyond Theory",
+      "Foster Long-Term Collaborative Relationships",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Software Development",
+    description: "Our software development services deliver custom, innovative solutions that fuel business success. We specialize in creating scalable web applications, cutting-edge mobile apps, and robust software systems tailored to diverse needs across industries. Our goal is to empower your business with technology that drives growth and efficiency.",
+    // price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Innovative Design",
+      "Quality Assurance",
+      "Agile Development Processes",
+      "Continuous Support and Maintenance",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "HR Solutions",
+    description: "Our HR solutions simplify talent acquisition and boost employee retention through robust training and development programs. We bridge the gap between academia and industry, equipping interns with essential skills for smooth transitions into full-time roles, fostering a prepared and committed workforce for your organization.",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Enhance Cost Efficiency",
+      "Develop a Sustainable Talent Pipeline",
+      "Foster Long-Term Employee Retention",
+      "Strengthen Organisational Culture",
     ],
   },
 ];
@@ -244,54 +260,92 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Software Development",
+    text: "Attain advanced expertise in software development focusing on designing scalable architectures, writing efficient code, and implementing high-performance solutions tailored to complex real-world challenges in diverse domains.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Web Applications Development",
+    text: "Develop proficiency in crafting sophisticated web applications focusing on seamless interfaces, robust architecture, and efficient integration. ",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Mobile Applications Development ",
+    text: "Acquire mastery in mobile application development specializing in creating feature-rich high-performing solutions for iOS and Android platforms. ",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Software Testing",
+    text: "Gain specialized skills in software testing focusing on rigorous methodologies for quality assurance, debugging, and optimizing performance to deliver reliable.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "AI Applications Development",
+    text: "Delve into AI applications development mastering advanced techniques to create intelligent systems, from predictive models to automation solutions tailored for transformative industry.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    title: "Data Analyst",
+    text: "Delve into AI applications development mastering advanced techniques to create intelligent systems, from predictive models to automation solutions tailored for transformative industry.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
     imageUrl: benefitImage2,
   },
+  {
+    id: "6",
+    title: "AWS Cloud Computing",
+    text: "Gain advanced proficiency in AWS Cloud Computing, mastering cloud architecture deployment and scalable solutions. Learn to efficiently manage cloud infrastructure, optimize performance, and implement secure, high-availability environments.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "7",
+    title: "C Programming",
+    text: "Master C programming focusing on efficient memory management, low-level operations, and algorithmic problem-solving. Develop a deep understanding of system-level programming essential for building high-performance applications.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "8",
+    title: "C++ Programming",
+    text: "Excel in C++ programming, mastering object-oriented design, advanced memory management, and performance optimization. Build expertise in creating robust applications, system software, and real-time solutions using industry-relevant techniques.",
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "9",
+    title: "LLM Applications",
+    text: "Gain proficiency in Large Language Model (LLM) applications focusing on natural language processing, AI-driven insights, and custom model integration to revolutionize automation, customer engagement, and decision-making processes.",
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "10",
+    title: "Blockchain and De-Fi Apps",
+    text: "Specialize in Blockchain and De-Fi applications, delving into decentralized ecosystems, immutable ledger technologies, and trustless financial solutions to transform digital transactions and foster financial autonomy.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "11",
+    title: "System Software",
+    text: "Develop expertise as a Data Analyst, mastering the art of extracting insights, interpreting complex datasets, and driving data-informed decisions enabling impactful strategies and solutions in a data-driven world.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    imageUrl: benefitImage2,
+  },
+  
+
 ];
 
 export const socials = [
@@ -311,7 +365,7 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/gokboru.in/",
   },
   {
     id: "3",

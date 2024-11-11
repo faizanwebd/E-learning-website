@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with GokBoru Tech's" 
+          title="An all-in-one solution provider for every need."
         />
 
         <div className="relative">
@@ -41,11 +41,11 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="#features"
           >
             See the full details
           </a>
-        </div>
+        </div> 
       </div>
     </Section>
   );

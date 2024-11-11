@@ -10,8 +10,9 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+          Design Tools Courses
           </h2>
+          <p className=" mb-3 text-n-3">Explore courses from experienced, real-world experts.</p>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (

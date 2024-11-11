@@ -4,16 +4,18 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import Button from "./Button";
 
 const Benefits = () => {
   return (
     <Section id="features">
-      <div className="container relative z-2">
+      <div className="container relative z-2" href="#">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          className="md:max-w-md lg:max-w-4xl"
+          title="Cultivating Expertise for the Modern Professional."
+          text="Flexible pricing plans designed to meet the diverse needs of your projects."
         />
-
+        
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
@@ -23,18 +25,21 @@ const Benefits = () => {
               }}
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] ">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
+                  {/* <img
                     src={item.iconUrl}
-                    width={48}
+                    width={4}
                     height={48}
                     alt={item.title}
-                  />
+                  /> */}
+                  <p className=" text-xl font-bold  tracking-wider">
+                  ₹ 999
+                  </p>
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
+                    <a href="#features" white >Register</a>
                   </p>
                   <Arrow />
                 </div>
